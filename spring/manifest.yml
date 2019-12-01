@@ -5,9 +5,3 @@ applications:
   instances: 1
   host: rabbitmq-spring-demo
   path: target/rabbitmq-spring-1.0-SNAPSHOT.war
-  services:
-    rabbit-sample:
-      label: cloudamqp
-      provider: cloudamqp
-      version: n/a
-      plan: lemur
